@@ -6,17 +6,16 @@ An PyTorch implementation of the paper Recorrupted-to-Recorrupted: Unsupervised 
 - Welcome to visit [https://github.com/Li-Tong-621/Tool-for-SSSID](https://github.com/Li-Tong-621/Tool-for-SSSID) for more codes.
 - If you find this repo useful, please give it a star ⭐ and consider citing our paper in your research. Thank you.
 
-  
-## 🚀 Results
-- You can directly download the results of R2R on CC, PolyU, FMDD or SIDD datasets [here](https://github.com/Li-Tong-621/R2R/releases/tag/1.0).
-
-
 ## 🔥 Quick Start
 
 - To quickly reproduce the results of R2R on CC, PolyU, FMDD, SIDD validation datasets or your own datasets, please modify the path in the code and run:
 ```
 python train_real.py --cropped_path your_dataset_path --save_path your_save_path
 ```
+
+## 🚀 Results
+- The R2R method produces 2 different denoised images for one single image. And we calculate PSNR and choose the better one as the final result.
+- You can directly download the results of R2R on CC, PolyU, FMDD or SIDD datasets [here](https://github.com/Li-Tong-621/R2R/releases/tag/1.0).
 
 
 
